@@ -2,6 +2,7 @@ const calculator = require('./calculator');
 
 
 describe('Calculator', () => {
+
  test('return a sum of numbers. [12,4,6] => 22', () => {
   //Arrange
  const list = [12,4,6];
@@ -57,7 +58,6 @@ describe('Calculator', () => {
  expect(result.divide(0)).toBe('Can not divide a number by zero');
  });
 
-
  test('reset class property, result.clear() => 0', () => {
   //Arrange
  const list = 10020;
@@ -68,6 +68,5 @@ describe('Calculator', () => {
  //Assert
  expect(result.clear()).toBe(0);
  });
-
 
 });

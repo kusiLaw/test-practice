@@ -31,11 +31,5 @@ class Calculator{
   }
 }
 
-cal = new Calculator()
-console.log(cal.Add([12,4,6]))
-console.log(cal.subtract(1))
-console.log(cal.divide(2))
-console.log(cal.multiply(2))
 
-cal.clear()
 module.exports = Calculator;
